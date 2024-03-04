@@ -6,3 +6,8 @@ duckdb_extension_load(postgres_scanner
     LOAD_TESTS
     DONT_LINK
 )
+
+# Used for testing
+duckdb_extension_load(tpch)
+duckdb_extension_load(tpcds)
+duckdb_extension_load(json)
